@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B188455D2F790E4F0003A8D0 /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = B188455B2F790E450003A8D0 /* .gitignore */; };
+		B18845612F7910C50003A8D0 /* .gitignore 2 in Resources */ = {isa = PBXBuildFile; fileRef = B18845602F7910C50003A8D0 /* .gitignore 2 */; };
+		B18845632F7910CC0003A8D0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B18845622F7910CC0003A8D0 /* README.md */; };
+		B18845652F7910D10003A8D0 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18845642F7910D10003A8D0 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B166327E2F77668000CE34EC /* Whistle2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whistle2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B188455B2F790E450003A8D0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B18845602F7910C50003A8D0 /* .gitignore 2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".gitignore 2"; sourceTree = "<group>"; };
+		B18845622F7910CC0003A8D0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B18845642F7910D10003A8D0 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,6 +46,9 @@
 				B188455B2F790E450003A8D0 /* .gitignore */,
 				B16632802F77668000CE34EC /* Whistle2 */,
 				B166327F2F77668000CE34EC /* Products */,
+				B18845602F7910C50003A8D0 /* .gitignore 2 */,
+				B18845622F7910CC0003A8D0 /* README.md */,
+				B18845642F7910D10003A8D0 /* Package.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +124,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18845612F7910C50003A8D0 /* .gitignore 2 in Resources */,
+				B18845632F7910CC0003A8D0 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B188455D2F790E4F0003A8D0 /* .gitignore in Sources */,
+				B18845652F7910D10003A8D0 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
