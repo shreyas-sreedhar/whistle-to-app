@@ -1,17 +1,14 @@
-//
-//  Whistle2App.swift
-//  Whistle2
-//
-//  Created by Shreyas Sreedhar on 3/27/26.
-//
-
 import SwiftUI
 
 @main
 struct Whistle2App: App {
+    @StateObject private var detector = DetectorManager()
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra("Whistle Detector", systemImage: "waveform.circle.fill") {
+            MenuBarView()
+                .environmentObject(detector)
         }
+        .menuBarExtraStyle(.window)
     }
 }

@@ -1,0 +1,38 @@
+//
+//  .gitignore
+//  Whistle2
+//
+//  Created by Shreyas Sreedhar on 3/29/26.
+//
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode build
+build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Xcode user-specific (window positions, breakpoints, schemes)
+xcuserdata/
+*.xcuserdatad
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods (if used later)
+Pods/
+
+# Misc
+*.moved-aside
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.hmap
+*.playground
+timeline.xctimeline
