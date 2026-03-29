@@ -34,6 +34,4 @@ This project is built with:
 
 Feel free to submit issues and pull requests to improve the app.
 
-## License
 
-[Add your preferred license here]
